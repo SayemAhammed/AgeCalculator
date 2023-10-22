@@ -23,14 +23,12 @@ function calculateAge(){
     if (m2 >= m1) {
         m3 = m2 - m1;
     }else{
-        y3--;
-        m3 = 12 + m3 - m1;
+        m3 = today.getMonth() + m3 - m1;
     }
 
     if (d2 >= d1) {
         d3 = d2 - d1;
     } else {
-        m3--;
         d3 = getDaysInMonth(y1, m1) + d2 - d1
     }
 

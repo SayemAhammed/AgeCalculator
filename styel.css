@@ -1,3 +1,4 @@
+/* Age calculator css Start here */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -74,3 +75,4 @@
 #result span{
     color: #ffff76;
 }
+/* Age calculator css Ends here */
